@@ -28,10 +28,11 @@ img{
     padding: 35px;
 }
 .titleInfo{
+    letter-spacing: .22rem;
     color:hsl(228, 12%, 48%) ;
     font-family: "Montserrat",sans-serif; 
-    font-weight: 500;
-    font-size: 15px;
+    font-weight: 100;
+    font-size: 13px;
 }
 .title{
     color: hsl(212, 21%, 14%);
@@ -39,12 +40,14 @@ img{
     font-weight: 700;
     font-size: 30px;
     margin-top: 10px;
+    line-height: 30px;
 }
 .textparagraphe{
     font-size: 14px;
     color:hsl(228, 12%, 48%) ;
     margin-top: 15px;
     margin-bottom: 15px;
+    line-height: 20px;
 }
 .prices{
     display: flex;
@@ -66,12 +69,33 @@ img{
 button{
     cursor: pointer;
     background-color:  hsl(158, 36%, 37%);
+    border-color: hsl(158, 36%, 37%);
     width: 100%;
     border-radius: 10px;
     margin-top: 20px;
+    height: 45px;
+
+   border-width: 2px;
+   border-style: solid;
+    
 }
+button:hover{
+    transition-duration: 0.2s;
+    background-color: hsl(158, 36%, 20%);
+}
+.material-symbols-outlined{
+    
+    color:hsl(0, 0%, 100%) ;
+}
+
 .textbutton{
     color:hsl(0, 0%, 100%) ;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    position: relative;
+    top: -15%;
+    padding-left: 10px;
+    
 }
 
 
