@@ -1,4 +1,5 @@
 # Frontend Mentor - Product preview card component
+https://frontendmentorrepo.github.io/Product-preview-cardcomponent/
 
 ## Welcome! 👋
 This is what I made :
